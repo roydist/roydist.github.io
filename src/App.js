@@ -5,7 +5,6 @@ import React, { Component } from "react";
 import Linkedin from "Assets/linkin.svg";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
-import styled from "styled-components";
 
 class App extends Component {
   render() {
