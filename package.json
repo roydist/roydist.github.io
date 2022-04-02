@@ -1,0 +1,32 @@
+{
+  "name": "landing-page",
+  "version": "0.1.0",
+  "author": "Roy Distler",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "6.4.3",
+    "flowbite": "1.4.1",
+    "react": "16.6.0",
+    "react-dom": "16.6.0",
+    "react-scroll": "1.7.10",
+    "styled-components": "5.3.5"
+  },
+  "scripts": {
+    "start": "craco start && postcss src/App.css -o public/app.css",
+    "build": "craco build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  }
+}
