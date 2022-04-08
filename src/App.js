@@ -2,9 +2,11 @@ import "./App.css";
 
 import React, { Component } from "react";
 
-import Linkedin from "Assets/linkin.svg";
+import Linkedin from "Assets/linkedin.svg";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
+import ServicesGraph from "Assets/services.svg";
+import styled from "styled-components";
 
 class App extends Component {
   render() {
@@ -17,7 +19,9 @@ class App extends Component {
             <div className="3xl">SOFTWARE</div>
           </div>
         </Section>
-        <Section title="Services" dark={true} id="section2" />
+        <Section title="Services" dark={true} id="section2">
+          <Services src={ServicesGraph} alt="Services" />
+        </Section>
         <Section title="About Us" dark={false} id="section3">
           Roy Distler - Full Stack software developer A result-driven,
           project-focused Full Stack software developer. Currently developing
@@ -105,3 +109,8 @@ class App extends Component {
 }
 
 export default App;
+
+const Services = styled.img`
+  width: 800px;
+  height: 800px;
+`;

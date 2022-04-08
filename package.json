@@ -6,8 +6,10 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "6.4.3",
+    "d3": "^5.5.0",
     "flowbite": "1.4.1",
     "react": "16.6.0",
+    "react-d3-graph": "^2.6.0",
     "react-dom": "16.6.0",
     "react-scripts": "^4.0.3",
     "react-scroll": "1.7.10",
